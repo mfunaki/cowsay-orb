@@ -10,5 +10,5 @@ usage:
   workflows:
     use-my-orb:
       jobs:
-        - cowsay/say
+        - cowsay/say:
             message: Even a cow can kick a CI/CD workflow.
