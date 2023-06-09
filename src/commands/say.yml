@@ -1,0 +1,13 @@
+description: >
+  This command let a cow say a specified message.
+parameters:
+  message:
+    type: string
+    default: "Hello, CircleCI"
+    description: The message you want a cow to say.
+steps:
+  - run:
+      environment:
+        PARAM_MESSAGE: <<parameters.message>>
+      name: Cowsay
+      command: <<include(scripts/say.sh)>>
