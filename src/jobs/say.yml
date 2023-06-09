@@ -1,0 +1,13 @@
+description: >
+  Say commands let a cow say a specified message.
+
+executor: default
+
+parameters:
+  message:
+    type: string
+    default: "Hello, CircleCI"
+    description: "A greeting message you would like a cow to say."
+steps:
+  - say:
+      message: << parameters.message >>
