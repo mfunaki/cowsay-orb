@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  Cowsay orb is a helper to output any message from a cow. 
+  Cowsay orb is a helper to output any message from a cow.
   This is very useful you would like to eyecache specific messages in your workflow.
 
 # This information will be displayed in the orb registry and is not mandatory.
